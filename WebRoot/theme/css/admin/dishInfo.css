@@ -1,0 +1,16 @@
+.prop {
+	height:30px;
+}
+#desc {
+	height:50px;
+}
+#sub {
+	width:200px;
+}
+#upbtn {
+	margin-top:15px;
+	width:200px;
+}
+.error {
+	color:#f00;
+}

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>OnlineSalingSystem</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showIndex</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.showIndex</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>subjectDetail</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.subjectDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingCart</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.ShoppingCart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteItem</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.deleteItem</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>createOrder</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.createOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyAccount</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.MyAccount</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.Admin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FinishOrder</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.FinishOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCourse</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.AddCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadImg</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.UploadImg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteDish</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.DeleteDish</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditDish</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.EditDish</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ArrangeDish</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.ArrangeDish</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registSubject</servlet-name>
+    <servlet-class>com.idoxie.dishOL.control.registSubject</servlet-class>
+  </servlet>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>showIndex</servlet-name>
+    <url-pattern>/servlet/showIndex</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>subjectDetail</servlet-name>
+    <url-pattern>/servlet/subjectDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingCart</servlet-name>
+    <url-pattern>/servlet/ShoppingCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteItem</servlet-name>
+    <url-pattern>/servlet/deleteItem</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>createOrder</servlet-name>
+    <url-pattern>/servlet/createOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyAccount</servlet-name>
+    <url-pattern>/servlet/MyAccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/servlet/Admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FinishOrder</servlet-name>
+    <url-pattern>/servlet/FinishOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCourse</servlet-name>
+    <url-pattern>/servlet/AddCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadImg</servlet-name>
+    <url-pattern>/servlet/UploadImg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteDish</servlet-name>
+    <url-pattern>/servlet/DeleteDish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditDish</servlet-name>
+    <url-pattern>/servlet/EditDish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArrangeDish</servlet-name>
+    <url-pattern>/servlet/ArrangeDish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/servlet/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registSubject</servlet-name>
+    <url-pattern>/servlet/registSubject</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

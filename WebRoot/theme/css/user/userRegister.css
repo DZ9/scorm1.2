@@ -1,0 +1,29 @@
+#content {
+	padding:0;
+	padding-top:10px;
+}
+
+#content #top-nav{
+	background-color:white;
+	padding-left:5px;
+}
+
+#info #sub {
+	width:200px;
+}
+
+#uerror {
+	color:#f00;
+}
+
+#eerror {
+	color:#f00;
+}
+
+#perror {
+	color:#f00;
+}
+
+#rperror {
+	color:#f00;
+}
